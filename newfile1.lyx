@@ -26,7 +26,16 @@
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry false
 \use_amsmath 1
@@ -66,6 +75,67 @@ This is a Test
 
 \begin_layout Author
 Aubrey Moore
+\end_layout
+
+\begin_layout Standard
+To update the repository on GitHub:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+git add *
+\end_layout
+
+\begin_layout Plain Layout
+git commit -m 
+\begin_inset Quotes eld
+\end_inset
+
+Commit message.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+git push -u origin master
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The PDF will be downloadable from:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/aubreymoore/flatus/raw/master/newfile1.pdf
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
