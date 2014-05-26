@@ -100,15 +100,7 @@ git add *
 \end_layout
 
 \begin_layout Plain Layout
-git commit -m 
-\begin_inset Quotes eld
-\end_inset
-
-Commit message.
-\begin_inset Quotes erd
-\end_inset
-
-
+git commit -m 'Commit message.'
 \end_layout
 
 \begin_layout Plain Layout
@@ -126,7 +118,7 @@ The PDF will be downloadable from:
 
 \begin_layout Standard
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
