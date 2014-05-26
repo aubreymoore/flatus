@@ -2,7 +2,7 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass scrartcl
+\textclass article
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -25,7 +25,6 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -62,10 +61,6 @@
 
 \begin_layout Title
 This is a Test
-\end_layout
-
-\begin_layout Author
-Aubrey Moore
 \end_layout
 
 \end_body
